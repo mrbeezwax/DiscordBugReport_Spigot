@@ -1,0 +1,9 @@
+name: DiscordBugReport
+version: ${project.version}
+main: io.github.mrbeezwax.discordbugreport.DiscordBugReport
+depend: [DiscordSRV]
+
+commands:
+  bugreport:
+    description: Sends a bug report to the discord channel
+    usage: /<command>

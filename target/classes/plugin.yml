@@ -1,9 +1,0 @@
-name: DiscordBugReport
-version: 1.0-SNAPSHOT
-main: io.github.mrbeezwax.discordbugreport.DiscordBugReport
-depend: [DiscordSRV]
-
-commands:
-  bugreport:
-    description: Sends a bug report to the discord channel
-    usage: /<command>
